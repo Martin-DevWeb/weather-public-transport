@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <!-- Roboto - google font -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Roboto&display=swap" rel="stylesheet">
+  <!-- CSS -->
+  <link rel="stylesheet" href="./css/style.css">
+  <!-- JS -->
+  <script type="module" src="./js/meteo.js"></script>
+  <!-- Icons font awesome -->
+  <script src="https://kit.fontawesome.com/6e4e9bd2d4.js" crossorigin="anonymous"></script>
+  <title>Weather For Public Transport</title>
+</head>
+<body>
+
+  <!-- Global div -->
+  <div class="card day">
+
+
+    <!-- First column /!\ becoming first row if (screen < 640px) -->
+    <div class="weather-box">
+
+      <img class="icon" src="">
+      <div class="weather-content">
+        <p class="description"></p>
+        <p class="temperature"></p>
+        <p class="city"></p>
+      </div>
+
+    </div>
+
+    <!-- Second column /!\ becoming second row if (screen < 640px) -->
+    <div class="details">
+
+      <div class="feel">
+        <i class="fa-solid fa-temperature-three-quarters"></i>
+        <p class="feel-text"></p>
+      </div>
+
+
+        <div class="humidity">
+          <i class="fa-solid fa-water"></i>
+          <p class="humidity-text"></p>
+        </div>
+
+
+      <div class="wind">
+        <i class="fa-solid fa-wind"></i>
+        <p class="wind-text"></p>
+      </div>
+
+    </div>
+
+
+  </div>
+  
+</body>
+</html>

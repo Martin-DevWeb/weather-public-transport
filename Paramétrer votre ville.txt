@@ -1,0 +1,14 @@
+Afin d'afficher la météo de votre ville, il vous suffit d'écrire son nom
+en face de "selectedCity" dans le fichier "conf.json".
+
+Voici un exemple si vous habitez à Paris :
+
+{
+  "selectedCity" : "Paris"
+}
+
+Ou bien Marseille :
+
+{
+  "selectedCity" : "Marseille"
+}
